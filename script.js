@@ -1,15 +1,15 @@
 function getresult(){
 let name = prompt("enter your name");
-let one = "moonis";
-let two = "asif";
-let three = "wahid";
-let four = "ahmed";
-let five = "owais";
-let six = "zaryab";
-let seven = "imdad";
-let eight = "marvi";
-let nine = "ali";
-let ten = "rehman";
+let one = "zaryab";
+let two = "abdul";
+let three = "shehzad";
+let four = "nasir";
+let five = "ibrahim";
+let six = "hamza";
+let seven = "laiba";
+let eight = "soha";
+let nine = "aliya";
+let ten = "sherryar";
 
 if(name==one || name==two || name==three || name==four || name==five ||name==six || name==seven || name==eight || name==nine || name==ten){
     document.writeln(name + "<br>");
