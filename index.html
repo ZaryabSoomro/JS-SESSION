@@ -13,18 +13,18 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: gray;
+        background-color: #f4f4f4;
     }
     .container{
         width: 60%;
-        height: 700px;
-        border: 1px solid black;
+        height: 900px;
+        border: 5px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 33px;
         flex-direction: column;
-        background-color: lightgray;
+        background-color: #ffffff;
         margin-bottom: 33px;
     }
     button{
@@ -44,7 +44,8 @@
         <button onclick="getresult()">Get Result</button>
         <h1>Table generator</h1>
         <h6>Click Below To Generate Desired Table</h6>
-        <button onclick="tableGenerator()">Genarate Table</button>        
+        <button onclick="tableGenerator()">Genarate Table</button>    
+        <div id="output"></div>    
     </div>
 
     <script src="script.js"></script>
