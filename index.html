@@ -17,7 +17,7 @@
     }
     .container{
         width: 60%;
-        height: 500px;
+        height: 700px;
         border: 1px solid black;
         display: flex;
         justify-content: center;
@@ -25,6 +25,7 @@
         margin-top: 33px;
         flex-direction: column;
         background-color: lightgray;
+        margin-bottom: 33px;
     }
     button{
         width: 100px;
@@ -33,14 +34,21 @@
         background-color: lightcoral;
         color: white;
         cursor: pointer;
+        border: none;
     }
 </style>
 <body>
-    <!-- <div class="container">
-        <h1>Result Day</h1>
-        <h6>Click Below To Check Result</h6>
-        <button onclick="getresult()">Get Result</button>        
-    </div> -->
-<script src="script2.js"></script>
+    <div class="container">
+        <h1>Result Checker</h1>
+        <h6>Check your result now</h6>
+        <button onclick="getresult()">Get Result</button>
+        <h1>Table generator</h1>
+        <h6>Click Below To Generate Desired Table</h6>
+        <button onclick="tableGenerator()">Genarate Table</button>        
+    </div>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+
 </body>
 </html> 
